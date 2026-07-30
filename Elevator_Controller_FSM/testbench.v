@@ -29,10 +29,20 @@ initial
  #10
  button_1=0;
 
+ #200 // The time was chosen to be much larger than the time the elevator needs to move between floors which is nearly 50 ns 
  #10 button_3=1;
  #10 button_3=0;
 
- # 150 ;
+ #200 // The time was chosen to be much larger than the time the elevator needs to move between floors which is nearly 50 ns  
+
+ #10 button_2=1;
+ #10 button_2=0;
+
+ #200 // The time was chosen to be much larger than the time the elevator needs to move between floors which is nearly 50 ns
+ #10 button_1=1;
+ #10 button_1=0;
+ 
+ # 2000 ;
  $finish;
  end
  endmodule 
