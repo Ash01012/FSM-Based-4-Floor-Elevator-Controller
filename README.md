@@ -35,7 +35,7 @@ This repository contains the RTL implementation of a **4-floor elevator controll
 
 ## Tools Used
 
-* Verilog HDL
+* Verilog
 * Icarus Verilog
 * GTKWave
 
