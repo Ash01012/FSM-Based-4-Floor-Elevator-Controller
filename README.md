@@ -33,6 +33,14 @@ This repository contains the RTL implementation of a **4-floor elevator controll
 
 ---
 
+## Customizing the Testbench
+
+The default testbench demonstrates the elevator sequence **1 → 3 → 2 → 1**.
+
+To simulate different elevator movements, modify the floor button inputs (`button_0`, `button_1`, `button_2`, `button_3`) and the corresponding delay values in `testbench.v` according to the desired sequence. After making the changes, rerun the simulation to observe the updated elevator behavior in GTKWave.
+
+---
+
 ## Tools Used
 
 * VS CODE
