@@ -5,6 +5,7 @@ This repository contains the RTL implementation of a **4-floor elevator controll
 ## Features
 
 * 4-floor elevator controller
+* This is an example of MEALY FSM
 * FSM-based control logic
 * Floor selection using four input buttons
 * Bidirectional movement (UP/DOWN)
